@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+.stopwatch{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+}
+.countDown{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+}
+.stop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.watch{
+    position: sticky;
+}
+p{
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+.btn{
+    background-color: chartreuse;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    
+ 
+}
+.btnContainer{
+    display: flex;
+}
